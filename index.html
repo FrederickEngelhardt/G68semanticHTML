@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>semanticHTML</title>
+</head>
+
+<body>
+  <form action="index.html" method="post" id="user_info">
+    <label>Please add your email.</label>
+    <br>
+    <input type="text" name="email" placeholder="email">
+    <br>
+    <label>Please type a new password.</label>
+    <br>
+    <input type="text" name="password" placeholder="password">
+    <br>
+    <label>Please enter your github account url.</label>
+    <br>
+    <input type="text" name="Github Username" placeholder="Github account">
+    <br>
+    <label>Enterprise</label>
+    <input type="radio" name="Options" id="Enterprise" value="Enterprise"> <label>Pro</label>
+    <input type="radio" name="Options" id="Pro" value="Pro">
+    <label>Free</label>
+    <input type="radio" name="Options" id="Free" value="Free">
+    <br>
+    <input type="checkbox" name="remember me" id="">
+    <label for="remember me">Remember Me</label>
+  </form>
+  <button type="submit" action="./index.html" form="user_info" value="Submit">Submit</button>
+</body>
+
+</html>
